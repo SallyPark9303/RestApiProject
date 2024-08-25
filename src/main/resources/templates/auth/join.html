@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>로그인</title>
+</head>
+<body>
+<div class="container-fluid">
+  <div>
+    <div class="mb-3">
+      <label for="userId" class="form-label">아이디</label>
+      <input class="form-control" id="userId" placeholder="id">
+    </div>
+    <div class="mb-3">
+      <label for="password" class="form-label">비밀번호</label>
+      <input type="password" id="password" class="form-control" aria-describedby="password">
+    </div>
+  </div>
+  <button onclick="login"></button>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+
+  function login(){
+      //rest api 호출
+      fetch('api/members')
+
+
+
+  }
+
+</script>
